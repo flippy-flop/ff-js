@@ -1,0 +1,27 @@
+{
+  "name": "flippy-flop",
+  "version": "1.0.0",
+  "description": "A JavaScript implementation of the Flippy Flop data structure.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flippy-flop/ff-js.git"
+  },
+  "keywords": [
+    "flippy",
+    "flop",
+    "data",
+    "structure",
+    "container"
+  ],
+  "author": {
+    "name": "Shakeel Mohamed",
+    "email": "contact@shakeelmohamed.com",
+    "url": "https://ShakeelMohamed.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flippy-flop/ff-js/issues"
+  },
+  "homepage": "https://github.com/flippy-flop/ff-js#readme"
+}
