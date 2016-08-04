@@ -5,7 +5,7 @@ A JavaScript implementation of the Flippy Flop data structure.
 ## Background
 
 A Flippy Flop is an unpredictable data structure.
-Flip (insertion) and flop (removal) operations succeed at a random.
+Flip (insertion) and flop (removal) operations succeed at random.
 
 ## Usage
 
@@ -21,13 +21,13 @@ var ff = new FlippyFlop();
 // Attempt to insert a value
 ff.flip(5);
 
-// Could be 5, or undefined if the flip call failed.
+// Could be 5, or undefined if the flip call failed
 var flop1 = ff.flop();
 
-// Could be 5 if the flop() didn't remove the value, or undefined if the flip call failed.
+// Could be 5 if the flop call didn't remove the value, or undefined if the flip call failed
 var flop2 = ff.flop();
 
-// However, it's easy verify the number of elements in a FlippyFlop
+// However, it's easy to verify the number of elements in a FlippyFlop
 var count = ff.count();
 ```
 
